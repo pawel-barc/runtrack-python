@@ -1,0 +1,29 @@
+#Initialisation de deux variables:
+
+montant_initial_de_l_investissement_euro= 250_000
+taux_de_rendement_annuele=     0.02
+
+#Gain annuel en fonction du taux de rendement.
+gain_annuel=montant_initial_de_l_investissement_euro*taux_de_rendement_annuele
+print (gain_annuel )
+
+#Augmentation du capitale de 5000euro
+augmentation_euro= 5000
+taux_de_rendement_annuele= 0.02
+nouveau_gain_annuel=montant_initial_de_l_investissement_euro+augmentation_euro
+print(nouveau_gain_annuel*taux_de_rendement_annuele)
+
+#Nouvau montaint d'investissement
+nouveau_montaint_dinvestissement=montant_initial_de_l_investissement_euro+nouveau_gain_annuel
+
+#Calculation montain final apres retirage de 10% d'investissement
+retirage_10_pourcent=0.1
+perte_apres_retirage= nouveau_montaint_dinvestissement*retirage_10_pourcent
+
+total_final_montain_dinvestissement=nouveau_montaint_dinvestissement-perte_apres_retirage
+print(total_final_montain_dinvestissement)
+
+#Calculation de gain final
+final_taux_de_rendement_annuele= 0.01
+gain_final=total_final_montain_dinvestissement*final_taux_de_rendement_annuele
+print(gain_final)
